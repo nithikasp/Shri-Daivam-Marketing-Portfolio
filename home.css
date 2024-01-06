@@ -6,7 +6,7 @@
 
 .main {
     width: 100%;
-    background: url(pic/naturebg.jpg);
+    background: url(naturebg.jpg);
     background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center; /* Centers the background image */
     height: 100vh;
@@ -169,7 +169,7 @@ ul li a:hover{
     display: inline-block;
     align-content: center; 
     margin-top: 2%; /* Adjusted margin-top */
-    background: url(pic/download.jpg);
+    background: url(download.jpg);
     background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center;
     width: calc(30% - 20px);
