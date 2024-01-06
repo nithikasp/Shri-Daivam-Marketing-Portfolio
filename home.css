@@ -169,7 +169,7 @@ ul li a:hover{
     display: inline-block;
     align-content: center; 
     margin-top: 2%; /* Adjusted margin-top */
-    background: url(download.jpg);
+    background: url(pic/download.jpg);
     background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center;
     width: calc(30% - 20px);
@@ -233,7 +233,7 @@ ul li a:hover{
       padding: 8px 0;
     }
   
-    .main {}
+    .main {
       padding: 0 10px;
     }
   
@@ -243,12 +243,7 @@ ul li a:hover{
       margin-top: 20px;
     }
   
-    .image {
-      
-      display: none;
-    }
-  
-  .openinghours {
+    .openinghours {
       
       width: 100%;
       margin-left: 0;
@@ -258,16 +253,17 @@ ul li a:hover{
       
       width: 100%;
     }
-
-.advertising-video {
-  /* Adjustments for the advertising video on smaller screens */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 90%; /* Limit the width of the video container */
-}
+  
+    .image {
+      
+      display: none;
+    }
+  
+    .advertising-video {
+      
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
-
-
-
 
