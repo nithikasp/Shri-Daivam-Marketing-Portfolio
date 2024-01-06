@@ -23,7 +23,7 @@
   max-width: 1200px;
   margin: 0 auto;
  
-  background: url(pic/download.jpg);
+  background: url(download.jpg);
   background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center;
   padding: 20px;
