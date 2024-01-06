@@ -252,14 +252,11 @@ ul li a:hover{
       
       width: 100%;
       margin-left: 0;
-      box-sizing: border-box; /* Ensures padding and borders are included in the width */
-  padding: 10px;
     }
   
     .openinghourscontent {
       
       width: 100%;
-        box-sizing: border-box;
     }
 
 .advertising-video {
