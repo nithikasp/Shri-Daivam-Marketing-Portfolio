@@ -169,7 +169,7 @@ ul li a:hover{
     display: inline-block;
     align-content: center; 
     margin-top: 2%; /* Adjusted margin-top */
-    background: url(pic/download.jpg);
+    background: url(download.jpg);
     background-size: cover; /* Ensures the background image covers the entire element */
     background-position: center;
     width: calc(30% - 20px);
