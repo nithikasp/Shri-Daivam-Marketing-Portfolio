@@ -11,7 +11,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-image: url('pic/download.jpg'); /* Replace 'your-background-image.jpg' with your image file */
+  background-image: url('download.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 .text {
   width: 60%; /* Adjust text width */
   padding: 20px;
-  overflow-y: auto; /* Enable vertical scroll if needed */
+  overflow-y: auto; 
   color: white;
 }
 .text h2 {
