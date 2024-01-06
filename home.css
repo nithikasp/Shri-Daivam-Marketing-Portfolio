@@ -259,24 +259,43 @@ ul li a:hover{
       display: none;
     }
   
-    .openinghours {
-  /* Adjustments for the opening hours section on smaller screens */
-  width: 100%;
-  margin-left: 0;
-  margin-top: 20px;
-  padding: 10px;
-  text-align: center;
+  .openinghours {
+    /* Adjusted margins and paddings */
+    font-family: 'Lucida Console';
+    border-radius: 4px;
+    margin-left: 7%;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+    align-content: center; 
+    margin-top: 2%; /* Adjusted margin-top */
+    background: url(download.jpg);
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-position: center;
+    width: calc(30% - 20px);
+    color: white;
 }
-
 .openinghourscontent {
-  /* Adjustments for the content within opening hours on smaller screens */
-  width: 100%;
-  overflow-x: auto; /* Enable horizontal scrolling for the table */
+    float:left;
 }
 
-.opening-hours-table {
-  /* Adjustments for the opening hours table on smaller screens */
-  width: 100%;
+.openinghourscontent h2 {
+    display: block;
+    text-align: center;
+    margin-top: 1em; /* Adjust the margin as needed */
+    margin-bottom: 1em; /* Adjust the margin as needed */
+    font-weight: 400;
+    color: white;
+}
+
+.opening-hours-table tr td {
+    padding:5px;
+}
+.opening-hours-table tr td.opens,
+.opening-hours-table tr td.closes {
+    font-weight: bold;
+    color: aliceblue;
 }
 
 .opening-hours-table tr td {
