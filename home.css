@@ -260,49 +260,15 @@ ul li a:hover{
     }
   
   .openinghours {
-    /* Adjusted margins and paddings */
-    font-family: 'Lucida Console';
-    border-radius: 4px;
-    margin-left: 7%;
-    box-shadow: 0 0 10px black;
-    padding: 10px;
-    overflow: hidden;
-    display: inline-block;
-    align-content: center; 
-    margin-top: 2%; /* Adjusted margin-top */
-    background: url(download.jpg);
-    background-size: cover; /* Ensures the background image covers the entire element */
-    background-position: center;
-    width: calc(30% - 20px);
-    color: white;
-}
-.openinghourscontent {
-    float:left;
-}
-
-.openinghourscontent h2 {
-    display: block;
-    text-align: center;
-    margin-top: 1em; /* Adjust the margin as needed */
-    margin-bottom: 1em; /* Adjust the margin as needed */
-    font-weight: 400;
-    color: white;
-}
-
-.opening-hours-table tr td {
-    padding:5px;
-}
-.opening-hours-table tr td.opens,
-.opening-hours-table tr td.closes {
-    font-weight: bold;
-    color: aliceblue;
-}
-
-.opening-hours-table tr td {
-  /* Adjustments for table cells on smaller screens */
-  padding: 5px;
-  font-size: 14px; /* Adjust font size for better readability */
-}
+      
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .openinghourscontent {
+      
+      width: 100%;
+    }
 
 .advertising-video {
   /* Adjustments for the advertising video on smaller screens */
