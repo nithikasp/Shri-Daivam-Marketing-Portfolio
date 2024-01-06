@@ -259,12 +259,39 @@ ul li a:hover{
       display: none;
     }
   
-    .advertising-video {
-      
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+    .openinghours {
+  /* Adjustments for the opening hours section on smaller screens */
+  width: 100%;
+  margin-left: 0;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.openinghourscontent {
+  /* Adjustments for the content within opening hours on smaller screens */
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling for the table */
+}
+
+.opening-hours-table {
+  /* Adjustments for the opening hours table on smaller screens */
+  width: 100%;
+}
+
+.opening-hours-table tr td {
+  /* Adjustments for table cells on smaller screens */
+  padding: 5px;
+  font-size: 14px; /* Adjust font size for better readability */
+}
+
+.advertising-video {
+  /* Adjustments for the advertising video on smaller screens */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%; /* Limit the width of the video container */
+}
   }
 
 
